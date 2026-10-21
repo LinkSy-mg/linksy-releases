@@ -68,7 +68,20 @@ terminal for your phone.
 ### Windows, macOS, iPhone?
 
 No, and there are no plans for them. Linksy is for Linux computers and Android phones,
-and aims to be the best at exactly that.
+and aims to be the best at exactly that. Why not the others:
+
+- **Each one is a whole new app.** Linksy looks and behaves like it came with your
+  desktop; on Windows and macOS that means writing and maintaining it again, from scratch,
+  for each.
+- **Their best features need drivers.** Your phone as a webcam, a microphone or a second
+  display means system drivers on Windows and macOS, which those systems only accept
+  after paid signing and approval, and which break with their updates.
+- **The gatekeeping costs time and money.** Apple and Microsoft want yearly developer
+  fees, signing and notarization before an app installs without warnings; iPhone also
+  blocks most of what Linksy does (no background connections, no clipboard or file access
+  of this kind, no sideloading).
+
+That time goes into making Linksy better on Linux and Android instead.
 
 ## What it does
 
