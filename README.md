@@ -44,16 +44,16 @@ your browser; allow it, then install. To update, install a newer one the same wa
 ### Linux
 
 <!-- linux:start -->
-Linksy **0.7.1** for x86_64. Pick the one for your system:
+Linksy **0.7.2** for x86_64. Pick the one for your system:
 
 | System | Download | Then, in a terminal |
 |---|---|---|
-| **Fedora** 41+ | [linksy-0.7.1-1.x86_64.rpm](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.1/linksy-0.7.1-1.x86_64.rpm) | `sudo dnf install ./linksy-0.7.1-1.x86_64.rpm` |
-| **Ubuntu** 24.10+, **Debian** 13+ | [linksy_0.7.1_amd64.deb](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.1/linksy_0.7.1_amd64.deb) | `sudo apt install ./linksy_0.7.1_amd64.deb` |
-| **Any distribution** (Flatpak) | [linksy-0.7.1.flatpak](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.1/linksy-0.7.1.flatpak) | `flatpak install --user linksy-0.7.1.flatpak` |
-| Any distribution, no root | [linksy-0.7.1-linux-x86_64.tar.gz](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.1/linksy-0.7.1-linux-x86_64.tar.gz) | `tar xzf linksy-0.7.1-linux-x86_64.tar.gz && linksy-0.7.1-linux-x86_64/install.sh` |
+| **Fedora** 41+ | [linksy-0.7.2-1.x86_64.rpm](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.2/linksy-0.7.2-1.x86_64.rpm) | `sudo dnf install ./linksy-0.7.2-1.x86_64.rpm` |
+| **Ubuntu** 24.10+, **Debian** 13+ | [linksy_0.7.2_amd64.deb](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.2/linksy_0.7.2_amd64.deb) | `sudo apt install ./linksy_0.7.2_amd64.deb` |
+| **Any distribution** (Flatpak) | [linksy-0.7.2.flatpak](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.2/linksy-0.7.2.flatpak) | `flatpak install --user linksy-0.7.2.flatpak` |
+| Any distribution, no root | [linksy-0.7.2-linux-x86_64.tar.gz](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.7.2/linksy-0.7.2-linux-x86_64.tar.gz) | `tar xzf linksy-0.7.2-linux-x86_64.tar.gz && linksy-0.7.2-linux-x86_64/install.sh` |
 
-Release notes and checksums: [Linksy 0.7.1 for Linux](https://github.com/LinkSy-mg/linksy-releases/releases/tag/linux-v0.7.1).
+Release notes and checksums: [Linksy 0.7.2 for Linux](https://github.com/LinkSy-mg/linksy-releases/releases/tag/linux-v0.7.2).
 <!-- linux:end -->
 
 Then open **Linksy** from your apps. If your system is missing something a feature needs
