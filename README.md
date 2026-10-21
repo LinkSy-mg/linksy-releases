@@ -77,9 +77,9 @@ and aims to be the best at exactly that. Why not the others:
   display means system drivers on Windows and macOS, which those systems only accept
   after paid signing and approval, and which break with their updates.
 - **The gatekeeping costs time and money.** Apple and Microsoft want yearly developer
-  fees, signing and notarization before an app installs without warnings; iPhone also
-  blocks most of what Linksy does (no background connections, no clipboard or file access
-  of this kind, no sideloading).
+  fees, signing and notarization before an app installs without warnings. And iPhone
+  apps can barely run in the background or read the clipboard on their own, so most of
+  what Linksy does couldn't work there.
 
 That time goes into making Linksy better on Linux and Android instead.
 
