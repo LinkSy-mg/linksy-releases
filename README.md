@@ -96,20 +96,39 @@ Between a phone and a computer, or between two computers:
   or slide clicker.
 - **Find your phone**: make it ring, even on silent, or ask where it is.
 - **Lock when away**: walk off with your phone and the computer locks.
-- **Terminal on your phone** (coming to Android): Claude Code, neovim or a build on your
-  computer, behind a code you set on the computer.
+- **Terminal on your phone**: Claude Code, neovim or a build on your computer, behind a
+  code you set on the computer.
 - **Away from home**: files, clipboard, links and Ring over the internet too, for a week
   after your devices were last together.
 - Over **Wi-Fi** or a **USB cable**.
 
 ## Screenshots
 
+On the phone: your computers, a computer's page, files arriving, the phone as a touchpad.
+
 <p align="center">
-  <img src="screenshots/phone-home-dark.png" width="190" alt="The phone app: your computers">
-  <img src="screenshots/phone-device-dark.png" width="190" alt="A computer's page on the phone">
-  <img src="screenshots/phone-incoming-files.png" width="190" alt="Files arriving on the phone">
-  <img src="screenshots/phone-remote.png" width="190" alt="The phone as a touchpad and remote">
+  <img src="screenshots/phone-home-dark.png" width="190" alt="Your devices: Studio Desktop on the same Wi-Fi at 82%, a ThinkPad not nearby">
+  <img src="screenshots/phone-device-dark.png" width="190" alt="A computer's page on the phone: Send files, Clipboard, Ping, Remote, Find it, See its screen">
+  <img src="screenshots/phone-incoming-files.png" width="190" alt="A computer sending a file to the phone, with Accept and Decline">
+  <img src="screenshots/phone-remote.png" width="190" alt="The phone as a touchpad, with left and right click and a keyboard">
 </p>
+
+**Your computer's terminal on the phone.** Only after the code you set on the computer;
+then a real shell, with Esc, Ctrl, Alt, Tab and arrows above the keyboard.
+
+<p align="center">
+  <img src="screenshots/phone-terminal-code.png" width="230" alt="The phone asking for the terminal code set on the computer">
+  <img src="screenshots/phone-terminal.png" width="230" alt="A shell on the computer from the phone: git log in colour, and the key bar">
+</p>
+
+**The phone as the computer's webcam, and the computer's screen on the phone.**
+
+<p align="center">
+  <img src="screenshots/phone-webcam.png" width="230" alt="The phone's camera live as the computer's webcam, with zoom, torch and light controls">
+  <img src="screenshots/phone-watch-screen.png" width="520" alt="The computer's screen shown on the phone, full screen in landscape">
+</p>
+
+On the computer, light or dark:
 
 <p align="center">
   <img src="screenshots/desktop-light.png" width="760" alt="Linksy on Linux, light style">
