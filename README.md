@@ -65,6 +65,11 @@ The .deb, .rpm and tarball need glibc 2.39+, GTK 4.14+ and libadwaita 1.6+ (the 
 above have them). The Flatpak runs anywhere, but can't add the webcam driver or open a
 terminal for your phone.
 
+### Windows, macOS, iPhone?
+
+No, and there are no plans for them. Linksy is for Linux computers and Android phones,
+and aims to be the best at exactly that.
+
 ## What it does
 
 Between a phone and a computer, or between two computers:
