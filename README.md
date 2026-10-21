@@ -5,7 +5,7 @@
 <h1 align="center">Linksy</h1>
 
 <p align="center">
-  <b>Your phone and your computer, connected.</b><br>
+  <b>Your phone and your computer, connected. Or two computers.</b><br>
   Files, clipboard, screens, a webcam and more, straight between your own devices.<br>
   No account. No cloud. Nothing stored anywhere but on your devices.
 </p>
@@ -25,6 +25,10 @@
 
 Install Linksy on both devices, open it on each, and pair them once: both screens show
 the same code. That's it.
+
+It works between any two devices with Linksy, not only a phone and a computer: two Linux
+computers on the same network pair the same way, then send files and the clipboard, see
+and control each other's screen, or use one as a second display for the other.
 
 ### Android
 
@@ -62,6 +66,8 @@ above have them). The Flatpak runs anywhere, but can't add the webcam driver or 
 terminal for your phone.
 
 ## What it does
+
+Between a phone and a computer, or between two computers:
 
 - **Files and folders**, any size, both ways. Drop them on the window; transfers resume
   and are checked byte for byte.
