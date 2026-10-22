@@ -34,9 +34,14 @@ and control each other's screen, or use one as a second display for the other.
 
 | | |
 |---|---|
-| **[linksy.apk](https://github.com/LinkSy-mg/linksy-releases/releases/latest/download/linksy.apk)** | Works on every Android phone. Start here. |
-| [linksy-arm64.apk](https://github.com/LinkSy-mg/linksy-releases/releases/latest/download/linksy-arm64.apk) | Smaller, for 64-bit phones. |
-| [linksy-armv7.apk](https://github.com/LinkSy-mg/linksy-releases/releases/latest/download/linksy-armv7.apk) | Smaller, for older 32-bit phones. |
+| **[Linksy for every phone](https://linksy.diary.mg/download/android)** | Works on every Android phone. Start here. |
+| [Linksy for 64-bit phones](https://linksy.diary.mg/download/android-arm64) | Smaller, for 64-bit phones. |
+| [Linksy for 32-bit phones](https://linksy.diary.mg/download/android-armv7) | Smaller, for older 32-bit phones. |
+
+These always give the newest version, saved as `linksy-<version>.apk` (`-arm64` or
+`-armv7` for the smaller ones), so you can tell which one you have. Older versions are on
+the [releases page](https://github.com/LinkSy-mg/linksy-releases/releases): **Mobile
+release** is the Android app, **Desktop release** the Linux app.
 
 Open the downloaded file on the phone. Android asks once to allow installing apps from
 your browser; allow it, then install. To update, install a newer one the same way.
