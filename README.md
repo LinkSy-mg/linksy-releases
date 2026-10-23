@@ -40,8 +40,8 @@ and control each other's screen, or use one as a second display for the other.
 
 These always give the newest version, saved as `linksy-<version>.apk` (`-arm64` or
 `-armv7` for the smaller ones), so you can tell which one you have. Older versions are on
-the [releases page](https://github.com/LinkSy-mg/linksy-releases/releases): **Mobile
-release** is the Android app, **Desktop release** the Linux app.
+the [releases page](https://github.com/LinkSy-mg/linksy-releases/releases): **Android**
+releases are the phone app, **Linux** releases the computer's.
 
 Open the downloaded file on the phone. Android asks once to allow installing apps from
 your browser; allow it, then install. To update, install a newer one the same way.
@@ -49,26 +49,70 @@ your browser; allow it, then install. To update, install a newer one the same wa
 ### Linux
 
 <!-- linux:start -->
-Linksy **0.8.5** for x86_64. Pick the one for your system:
+Linksy **0.8.5** for x86_64. On Fedora, Debian, Ubuntu and openSUSE it's two packages:
+`linksy-common`, the part that runs in the background, and the app for your desktop:
+`linksy` for GNOME and most desktops, or `linksy-qt` for KDE Plasma.
 
-| System | Download | Then, in a terminal |
-|---|---|---|
-| **Fedora** 41+ | [linksy-0.8.5-1.x86_64.rpm](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.8.5/linksy-0.8.5-1.x86_64.rpm) | `sudo dnf install ./linksy-0.8.5-1.x86_64.rpm` |
-| **Ubuntu** 24.10+, **Debian** 13+ | [linksy_0.8.5_amd64.deb](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.8.5/linksy_0.8.5_amd64.deb) | `sudo apt install ./linksy_0.8.5_amd64.deb` |
-| **Any distribution** (Flatpak) | [linksy-0.8.5.flatpak](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.8.5/linksy-0.8.5.flatpak) | `flatpak install --user linksy-0.8.5.flatpak` |
-| Any distribution, no root | [linksy-0.8.5-linux-x86_64.tar.gz](https://github.com/LinkSy-mg/linksy-releases/releases/download/linux-v0.8.5/linksy-0.8.5-linux-x86_64.tar.gz) | `tar xzf linksy-0.8.5-linux-x86_64.tar.gz && linksy-0.8.5-linux-x86_64/install.sh` |
+**Fedora**
 
-Release notes and checksums: [Linksy 0.8.5 for Linux](https://github.com/LinkSy-mg/linksy-releases/releases/tag/linux-v0.8.5).
+```sh
+# The background service, and the app (on KDE Plasma: linksy-qt-0.8.5-1.x86_64.rpm)
+curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-0.8.5-1.x86_64.rpm
+# Install both together
+sudo dnf install ./linksy-common-0.8.5-1.x86_64.rpm ./linksy-0.8.5-1.x86_64.rpm
+```
+
+**Ubuntu 24.10+, Debian 13+**
+
+```sh
+# The background service, and the app (on KDE Plasma: linksy-qt_0.8.5_amd64.deb)
+curl -LO https://linksy.diary.mg/download/linksy-common_0.8.5_amd64.deb
+curl -LO https://linksy.diary.mg/download/linksy_0.8.5_amd64.deb
+# Install both together
+sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy_0.8.5_amd64.deb
+```
+
+**openSUSE Tumbleweed**
+
+```sh
+# The background service, and the app (on KDE Plasma: linksy-qt-0.8.5-1.suse.x86_64.rpm)
+curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.suse.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-0.8.5-1.suse.x86_64.rpm
+# Install both together (the packages aren't signed yet, hence the flag)
+sudo zypper install --allow-unsigned-rpm ./linksy-common-0.8.5-1.suse.x86_64.rpm ./linksy-0.8.5-1.suse.x86_64.rpm
+```
+
+**Any distribution: Flatpak**
+
+```sh
+# One file, everything in it (the GTK app)
+curl -LO https://linksy.diary.mg/download/linksy-0.8.5.flatpak
+# Install it for your user, no root needed
+flatpak install --user linksy-0.8.5.flatpak
+```
+
+**Any distribution, no root: the tarball**
+
+```sh
+# The GTK app, installed into your home folder (~/.local)
+curl -LO https://linksy.diary.mg/download/linksy-0.8.5-linux-x86_64.tar.gz
+# Unpack it and run its installer; uninstall.sh removes it again
+tar xzf linksy-0.8.5-linux-x86_64.tar.gz && linksy-0.8.5-linux-x86_64/install.sh
+```
+
+Release notes and checksums: [Linux 0.8.5](https://github.com/LinkSy-mg/linksy-releases/releases/tag/linux-v0.8.5).
 <!-- linux:end -->
 
 Then open **Linksy** from your apps. If your system is missing something a feature needs
 (a codec, the camera driver, the firewall rule), **Finish Setup** opens and adds it all in
-one go; your computer asks for your password once. Linksy updates itself in the
-background after you install a newer version, and tells you when there is one.
+one go; your computer asks for your password once. When a newer version is out, Linksy
+tells you, and the first time it opens after an update it shows what's new.
 
-The .deb, .rpm and tarball need glibc 2.39+, GTK 4.14+ and libadwaita 1.6+ (the systems
-above have them). The Flatpak runs anywhere, but can't add the webcam driver or open a
-terminal for your phone.
+The GTK app needs glibc 2.39+, GTK 4.14+ and libadwaita 1.6+; the KDE Plasma app needs
+Qt 6.8+ and KDE Frameworks 6.13+ (Plasma 6). The systems above have them. The Flatpak runs
+anywhere, but can't add the webcam driver for browsers and calls, use a USB cable, or open
+a terminal for your phone.
 
 ### Windows, macOS, iPhone?
 
@@ -156,5 +200,6 @@ On the computer, light or dark:
 - Both devices need to be on the same network the first time you pair them (or connected
   by a USB cable). On Linux, Finish Setup checks your firewall lets them meet.
 
-Linksy is freeware: free to use on all your devices, for personal or commercial use, and
-free to share unmodified. [License](https://linksy.diary.mg/license).
+Linksy is free and open source, under the GNU AGPL v3.0 or later: the Linux app's code is at
+[LinkSy-mg/linksy-desktop](https://github.com/LinkSy-mg/linksy-desktop). If you like it, a
+star there helps others find it.
