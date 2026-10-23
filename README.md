@@ -43,34 +43,64 @@ once, and install. To update, install a newer one the same way.
 Linksy **0.8.5** for x86_64. Two packages: `linksy-common` (runs in the background) and the
 app for your desktop: `linksy` for GNOME and most desktops, `linksy-qt` for KDE Plasma.
 
-**Fedora**
+**Fedora · GNOME and others**
 
 ```sh
-# The background service, and the app (KDE Plasma: linksy-qt-0.8.5-1.x86_64.rpm)
+# The background service, and the GTK app
 curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.x86_64.rpm
 curl -LO https://linksy.diary.mg/download/linksy-0.8.5-1.x86_64.rpm
 # Install both together
 sudo dnf install ./linksy-common-0.8.5-1.x86_64.rpm ./linksy-0.8.5-1.x86_64.rpm
 ```
 
-**Ubuntu 24.10+, Debian 13+**
+**Fedora · KDE Plasma**
 
 ```sh
-# The background service, and the app (KDE Plasma: linksy-qt_0.8.5_amd64.deb)
+# The background service, and the Qt 6 app
+curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-qt-0.8.5-1.x86_64.rpm
+# Install both together
+sudo dnf install ./linksy-common-0.8.5-1.x86_64.rpm ./linksy-qt-0.8.5-1.x86_64.rpm
+```
+
+**Ubuntu 24.10+, Debian 13+ · GNOME and others**
+
+```sh
+# The background service, and the GTK app
 curl -LO https://linksy.diary.mg/download/linksy-common_0.8.5_amd64.deb
 curl -LO https://linksy.diary.mg/download/linksy_0.8.5_amd64.deb
 # Install both together
 sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy_0.8.5_amd64.deb
 ```
 
-**openSUSE Tumbleweed**
+**Ubuntu 24.10+, Debian 13+ · KDE Plasma**
 
 ```sh
-# The background service, and the app (KDE Plasma: linksy-qt-0.8.5-1.suse.x86_64.rpm)
+# The background service, and the Qt 6 app
+curl -LO https://linksy.diary.mg/download/linksy-common_0.8.5_amd64.deb
+curl -LO https://linksy.diary.mg/download/linksy-qt_0.8.5_amd64.deb
+# Install both together
+sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy-qt_0.8.5_amd64.deb
+```
+
+**openSUSE Tumbleweed · GNOME and others**
+
+```sh
+# The background service, and the GTK app
 curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.suse.x86_64.rpm
 curl -LO https://linksy.diary.mg/download/linksy-0.8.5-1.suse.x86_64.rpm
 # Install both together (not signed yet, hence the flag)
 sudo zypper install --allow-unsigned-rpm ./linksy-common-0.8.5-1.suse.x86_64.rpm ./linksy-0.8.5-1.suse.x86_64.rpm
+```
+
+**openSUSE Tumbleweed · KDE Plasma**
+
+```sh
+# The background service, and the Qt 6 app
+curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.suse.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-qt-0.8.5-1.suse.x86_64.rpm
+# Install both together (not signed yet, hence the flag)
+sudo zypper install --allow-unsigned-rpm ./linksy-common-0.8.5-1.suse.x86_64.rpm ./linksy-qt-0.8.5-1.suse.x86_64.rpm
 ```
 
 **Any distribution: Flatpak**
