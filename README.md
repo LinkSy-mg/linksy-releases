@@ -78,6 +78,10 @@ curl -LO https://linksy.diary.mg/download/linksy_0.8.5_amd64.deb
 sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy_0.8.5_amd64.deb
 ```
 
+> **Older systems** (Debian 12 or older, Ubuntu 24.04 or older, Linux Mint 22 or older): use
+> the **Flatpak** below. It brings everything it needs (the GTK app). Install Flatpak first:
+> `sudo apt install flatpak`.
+
 **openSUSE Tumbleweed**
 
 ```sh
