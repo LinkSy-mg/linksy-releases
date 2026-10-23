@@ -63,7 +63,12 @@ curl -LO https://linksy.diary.mg/download/linksy-qt-0.8.5-1.x86_64.rpm
 sudo dnf install ./linksy-common-0.8.5-1.x86_64.rpm ./linksy-qt-0.8.5-1.x86_64.rpm
 ```
 
-**Ubuntu 24.10+, Debian 13+ · GNOME and others**
+> **On KDE Plasma, for the systems below too:** replace `linksy` with `linksy-qt` in the app's
+> file name, for example `linksy_0.8.5_amd64.deb` becomes `linksy-qt_0.8.5_amd64.deb`, in both
+> the download and the install line. `linksy-common` stays the same. The Plasma app needs
+> Ubuntu 25.04 or newer.
+
+**Ubuntu 24.10+, Debian 13+**
 
 ```sh
 # The background service, and the GTK app
@@ -73,17 +78,7 @@ curl -LO https://linksy.diary.mg/download/linksy_0.8.5_amd64.deb
 sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy_0.8.5_amd64.deb
 ```
 
-**Ubuntu 25.04+, Debian 13+ · KDE Plasma**
-
-```sh
-# The background service, and the Qt 6 app
-curl -LO https://linksy.diary.mg/download/linksy-common_0.8.5_amd64.deb
-curl -LO https://linksy.diary.mg/download/linksy-qt_0.8.5_amd64.deb
-# Install both together
-sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy-qt_0.8.5_amd64.deb
-```
-
-**openSUSE Tumbleweed · GNOME and others**
+**openSUSE Tumbleweed**
 
 ```sh
 # The background service, and the GTK app
@@ -91,16 +86,6 @@ curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.suse.x86_64.rpm
 curl -LO https://linksy.diary.mg/download/linksy-0.8.5-1.suse.x86_64.rpm
 # Install both together (not signed yet, hence the flag)
 sudo zypper install --allow-unsigned-rpm ./linksy-common-0.8.5-1.suse.x86_64.rpm ./linksy-0.8.5-1.suse.x86_64.rpm
-```
-
-**openSUSE Tumbleweed · KDE Plasma**
-
-```sh
-# The background service, and the Qt 6 app
-curl -LO https://linksy.diary.mg/download/linksy-common-0.8.5-1.suse.x86_64.rpm
-curl -LO https://linksy.diary.mg/download/linksy-qt-0.8.5-1.suse.x86_64.rpm
-# Install both together (not signed yet, hence the flag)
-sudo zypper install --allow-unsigned-rpm ./linksy-common-0.8.5-1.suse.x86_64.rpm ./linksy-qt-0.8.5-1.suse.x86_64.rpm
 ```
 
 **Any distribution: Flatpak**
