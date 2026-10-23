@@ -125,7 +125,8 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
 
 - **Needs:** GTK app: glibc 2.39+, GTK 4.14+, libadwaita 1.6+. Plasma app: Qt 6.8+, KDE
   Frameworks 6.13+.
-- **Flatpak limits:** no webcam in browsers and calls, no USB cable, no terminal for the phone.
+- **Flatpak:** the webcam in every app and the USB cable need one command, which Finish
+  Setup gives you; the phone's terminal stays inside the sandbox.
 - **Older versions:** on the [releases page](https://github.com/LinkSy-mg/linksy-releases/releases),
   as **Android** and **Linux** releases.
 
