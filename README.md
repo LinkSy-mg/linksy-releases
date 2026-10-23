@@ -73,7 +73,7 @@ curl -LO https://linksy.diary.mg/download/linksy_0.8.5_amd64.deb
 sudo apt install ./linksy-common_0.8.5_amd64.deb ./linksy_0.8.5_amd64.deb
 ```
 
-**Ubuntu 24.10+, Debian 13+ · KDE Plasma**
+**Ubuntu 25.04+, Debian 13+ · KDE Plasma**
 
 ```sh
 # The background service, and the Qt 6 app
