@@ -43,6 +43,15 @@ once, and install. To update, install a newer one the same way.
 Linksy **0.8.5** for x86_64. Two packages: `linksy-common` (runs in the background) and the
 app for your desktop: `linksy` for GNOME and most desktops, `linksy-qt` for KDE Plasma.
 
+**The quickest way, any distribution**
+
+```sh
+# Finds your system and desktop, asks which app (GNOME or KDE Plasma), installs it with one password
+curl -fsSL https://linksy.diary.mg/install.sh | sh
+```
+
+[See what it does](https://linksy.diary.mg/install.sh). Older systems get the Flatpak. Or do it by hand:
+
 **Fedora · GNOME and others**
 
 ```sh
