@@ -77,7 +77,7 @@ sudo dnf install ./linksy-common-0.9.0-1.x86_64.rpm ./linksy-qt-0.9.0-1.x86_64.r
 > the download and the install line. `linksy-common` stays the same. The Plasma app needs
 > Ubuntu 25.04 or newer.
 
-**Ubuntu 24.10+, Debian 13+**
+**Ubuntu 24.04+, Linux Mint 22+, Debian 13+** (the KDE app: Ubuntu 25.04+, Debian 13+)
 
 ```sh
 # The background service, and the GTK app
@@ -87,7 +87,7 @@ curl -LO https://linksy.diary.mg/download/linksy_0.9.0_amd64.deb
 sudo apt install ./linksy-common_0.9.0_amd64.deb ./linksy_0.9.0_amd64.deb
 ```
 
-> **Older systems** (Debian 12 or older, Ubuntu 24.04 or older, Linux Mint 22 or older): use
+> **Older systems** (Debian 12, Ubuntu 22.04, Linux Mint 21 and older): use
 > the **Flatpak** below. It brings everything it needs (the GTK app). Install Flatpak first:
 > `sudo apt install flatpak`.
 
