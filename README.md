@@ -40,7 +40,7 @@ once, and install. To update, install a newer one the same way.
 ### Linux
 
 <!-- linux:start -->
-Linksy **0.9.9** for x86_64. Two packages: `linksy-common` (runs in the background) and the
+Linksy **0.9.10** for x86_64. Two packages: `linksy-common` (runs in the background) and the
 app for your desktop: `linksy` for GNOME and most desktops, `linksy-qt` for KDE Plasma.
 
 **The quickest way, any distribution**
@@ -56,24 +56,24 @@ curl -fsSL https://linksy.diary.mg/install.sh | sh
 
 ```sh
 # The background service, and the GTK app
-curl -LO https://linksy.diary.mg/download/linksy-common-0.9.9-1.x86_64.rpm
-curl -LO https://linksy.diary.mg/download/linksy-0.9.9-1.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-common-0.9.10-1.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-0.9.10-1.x86_64.rpm
 # Install both together
-sudo dnf install ./linksy-common-0.9.9-1.x86_64.rpm ./linksy-0.9.9-1.x86_64.rpm
+sudo dnf install ./linksy-common-0.9.10-1.x86_64.rpm ./linksy-0.9.10-1.x86_64.rpm
 ```
 
 **Fedora · KDE Plasma**
 
 ```sh
 # The background service, and the Qt 6 app
-curl -LO https://linksy.diary.mg/download/linksy-common-0.9.9-1.x86_64.rpm
-curl -LO https://linksy.diary.mg/download/linksy-qt-0.9.9-1.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-common-0.9.10-1.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-qt-0.9.10-1.x86_64.rpm
 # Install both together
-sudo dnf install ./linksy-common-0.9.9-1.x86_64.rpm ./linksy-qt-0.9.9-1.x86_64.rpm
+sudo dnf install ./linksy-common-0.9.10-1.x86_64.rpm ./linksy-qt-0.9.10-1.x86_64.rpm
 ```
 
 > **On KDE Plasma, for the systems below too:** replace `linksy` with `linksy-qt` in the app's
-> file name, for example `linksy_0.9.9_amd64.deb` becomes `linksy-qt_0.9.9_amd64.deb`, in both
+> file name, for example `linksy_0.9.10_amd64.deb` becomes `linksy-qt_0.9.10_amd64.deb`, in both
 > the download and the install line. `linksy-common` stays the same. The Plasma app needs
 > Ubuntu 25.04 or newer.
 
@@ -81,10 +81,10 @@ sudo dnf install ./linksy-common-0.9.9-1.x86_64.rpm ./linksy-qt-0.9.9-1.x86_64.r
 
 ```sh
 # The background service, and the GTK app
-curl -LO https://linksy.diary.mg/download/linksy-common_0.9.9_amd64.deb
-curl -LO https://linksy.diary.mg/download/linksy_0.9.9_amd64.deb
+curl -LO https://linksy.diary.mg/download/linksy-common_0.9.10_amd64.deb
+curl -LO https://linksy.diary.mg/download/linksy_0.9.10_amd64.deb
 # Install both together
-sudo apt install ./linksy-common_0.9.9_amd64.deb ./linksy_0.9.9_amd64.deb
+sudo apt install ./linksy-common_0.9.10_amd64.deb ./linksy_0.9.10_amd64.deb
 ```
 
 > **Older systems** (Debian 12, Ubuntu 22.04, Linux Mint 21 and older): use
@@ -95,29 +95,29 @@ sudo apt install ./linksy-common_0.9.9_amd64.deb ./linksy_0.9.9_amd64.deb
 
 ```sh
 # The background service, and the GTK app
-curl -LO https://linksy.diary.mg/download/linksy-common-0.9.9-1.suse.x86_64.rpm
-curl -LO https://linksy.diary.mg/download/linksy-0.9.9-1.suse.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-common-0.9.10-1.suse.x86_64.rpm
+curl -LO https://linksy.diary.mg/download/linksy-0.9.10-1.suse.x86_64.rpm
 # Install both together (not signed yet, hence the flag)
-sudo zypper install --allow-unsigned-rpm ./linksy-common-0.9.9-1.suse.x86_64.rpm ./linksy-0.9.9-1.suse.x86_64.rpm
+sudo zypper install --allow-unsigned-rpm ./linksy-common-0.9.10-1.suse.x86_64.rpm ./linksy-0.9.10-1.suse.x86_64.rpm
 ```
 
 **Any distribution: Flatpak**
 
 ```sh
 # Everything in one file (the GTK app), installed for your user
-curl -LO https://linksy.diary.mg/download/linksy-0.9.9.flatpak
-flatpak install --user linksy-0.9.9.flatpak
+curl -LO https://linksy.diary.mg/download/linksy-0.9.10.flatpak
+flatpak install --user linksy-0.9.10.flatpak
 ```
 
 **Any distribution, no root: tarball**
 
 ```sh
 # The GTK app, into your home folder; uninstall.sh removes it
-curl -LO https://linksy.diary.mg/download/linksy-0.9.9-linux-x86_64.tar.gz
-tar xzf linksy-0.9.9-linux-x86_64.tar.gz && linksy-0.9.9-linux-x86_64/install.sh
+curl -LO https://linksy.diary.mg/download/linksy-0.9.10-linux-x86_64.tar.gz
+tar xzf linksy-0.9.10-linux-x86_64.tar.gz && linksy-0.9.10-linux-x86_64/install.sh
 ```
 
-Notes and checksums: [Linux 0.9.9](https://github.com/LinkSy-mg/linksy-releases/releases/tag/linux-v0.9.9).
+Notes and checksums: [Linux 0.9.10](https://github.com/LinkSy-mg/linksy-releases/releases/tag/linux-v0.9.10).
 <!-- linux:end -->
 
 Then open **Linksy** from your apps. **Finish Setup** adds anything a feature still needs
