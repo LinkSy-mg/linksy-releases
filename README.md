@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/desktop-dark.png" width="720" alt="Linksy on Linux: a phone's page with Send Files, Clipboard, View Screen, Ring and Locate, Use as Second Display or Webcam, and the activity">
+  <img src="screenshots/desktop-dark.png" width="720" alt="Linksy on Linux: a phone's page with Send Files, Clipboard, View Screen, Ring and Locate, Use as Second Display, Webcam or Microphone, and the terminal">
 </p>
 
 ## Install
