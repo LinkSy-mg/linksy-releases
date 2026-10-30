@@ -123,10 +123,16 @@ Notes and checksums: [Linux 0.10.1](https://github.com/LinkSy-mg/linksy-releases
 Then open **Linksy** from your apps. **Finish Setup** adds anything a feature still needs
 (a codec, the webcam driver, the firewall rule), with one password.
 
-- **Needs:** GTK app: glibc 2.39+, GTK 4.14+, libadwaita 1.6+. Plasma app: Qt 6.8+, KDE
+- **Needs:** GTK app: glibc 2.39+, GTK 4.14+, libadwaita 1.5+. Plasma app: Qt 6.8+, KDE
   Frameworks 6.13+.
-- **Flatpak:** the webcam in every app and the USB cable need one command, which Finish
-  Setup gives you; the phone's terminal stays inside the sandbox.
+- **Flatpak:** does everything the packages do (it asks for access to your computer for
+  this): Finish Setup adds the webcam driver and the USB cable with one password, and the
+  phone's terminal opens your computer's own shell. On Sway, controlling the screen needs
+  the packages.
+- **Desktops:** GNOME, KDE Plasma, Xfce, Cinnamon, MATE, Openbox, i3, Hyprland, Sway, niri
+  and others. On X11 desktops Linksy shares and controls the screen itself, on Hyprland and
+  Sway the phone controls it through the compositor, and where no password prompt runs,
+  Linksy asks for the password itself.
 - **Older versions:** on the [releases page](https://github.com/LinkSy-mg/linksy-releases/releases),
   as **Android** and **Linux** releases.
 
