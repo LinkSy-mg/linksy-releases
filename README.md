@@ -1,34 +1,40 @@
-<p align="center">
-  <img src="assets/linksy-mark.svg" width="88" height="88" alt="">
-</p>
+<img width="1800" height="900" alt="Download Linksy for Android and Linux. The Linux app showing a phone's page next to the Android app showing the computer." src="assets/banner.png" />
 
-<h1 align="center">Linksy</h1>
+<div align="center">
 
-<p align="center">
-  <b>Your Android phone and your Linux computer, working as one.</b><br>
-  Files, clipboard, screens, a webcam and more, straight between your own devices.<br>
-  No account. No cloud. Free and open source.
-</p>
+  <sub>Your Android phone and your Linux computer, working as one. Files, clipboard, screens, a webcam and more, straight between your own devices. No account, no cloud, free and open source.</sub>
+  <br/><br/>
 
 <p align="center">
-  <a href="#android"><b>Android</b></a> ·
-  <a href="#linux"><b>Linux</b></a> ·
-  <a href="https://linksy.diary.mg">Website</a> ·
-  <a href="https://github.com/LinkSy-mg/linksy-releases/issues">Report a problem</a>
+  <a href="#android">
+    <img src="https://shieldcn.dev/github/release/LinkSy-mg/linksy-releases.svg?mode=dark&radius=999&font=geist&split=true&height=28&fontSize=13&labelColor=141821&labelTextColor=ffffff&color=1e2a4a&valueColor=ffffff&label=Android&logo=android&logoColor=22c3e6" alt="Android version"></a>
+  <a href="#linux">
+    <img src="https://shieldcn.dev/github/release/LinkSy-mg/linksy-desktop.svg?mode=dark&radius=999&font=geist&split=true&height=28&fontSize=13&labelColor=141821&labelTextColor=ffffff&color=1e2a4a&valueColor=ffffff&label=Linux&logo=linux&logoColor=22c3e6" alt="Linux version"></a>
+  <a href="https://github.com/LinkSy-mg/linksy-releases/releases">
+    <img src="https://shieldcn.dev/github/downloads/LinkSy-mg/linksy-releases.svg?mode=dark&radius=999&font=geist&split=true&height=28&fontSize=13&labelColor=141821&labelTextColor=ffffff&color=1e2a4a&valueColor=ffffff" alt="Downloads"></a>
+  <br/>
+  <a href="https://github.com/LinkSy-mg/linksy-desktop">
+    <img src="https://shieldcn.dev/github/license/LinkSy-mg/linksy-desktop.svg?mode=dark&radius=999&font=geist&split=true&height=28&fontSize=13&labelColor=141821&labelTextColor=ffffff&color=1e2a4a&valueColor=ffffff" alt="License"></a>
+  <a href="https://github.com/LinkSy-mg/linksy-releases/issues">
+    <img src="https://shieldcn.dev/github/issues/LinkSy-mg/linksy-releases.svg?mode=dark&radius=999&font=geist&split=true&height=28&fontSize=13&labelColor=141821&labelTextColor=ffffff&color=1e2a4a&valueColor=ffffff" alt="Issues"></a>
+  <a href="https://linksy.diary.mg">
+    <img src="https://shieldcn.dev/badge/Website-linksy.diary.mg-1e2a4a.svg?mode=dark&radius=999&font=geist&split=true&height=28&fontSize=13&labelColor=141821&labelTextColor=ffffff&color=1e2a4a&valueColor=ffffff" alt="Website"></a>
 </p>
 
-<p align="center">
-  <img src="screenshots/desktop-dark.png" width="720" alt="Linksy on Linux: a phone's page with Send Files, Clipboard, View Screen, Ring and Locate, Use as Second Display, Webcam or Microphone, and the terminal">
-</p>
+**[Android](#android)** &nbsp;·&nbsp; **[Linux](#linux)** &nbsp;·&nbsp; **[What it does](#what-it-does)** &nbsp;·&nbsp; **[Screenshots](#screenshots)** &nbsp;·&nbsp; **[Privacy](#private-by-design)** &nbsp;·&nbsp; **[Help](#help)**
+
+</div>
+
+> [!TIP]
+> Install Linksy on both devices, open it on each, and pair them once: both screens show the same code. Two Linux computers pair the same way.
+
+---
 
 ## Install
 
-Install Linksy on both devices, open it on each, and pair them once: both screens show the
-same code. Two Linux computers pair the same way.
-
 ### Android
 
-| | |
+| Download | For |
 |---|---|
 | **[Linksy for every phone](https://linksy.diary.mg/download/android)** | Start here. |
 | [64-bit phones](https://linksy.diary.mg/download/android-arm64) | Smaller download. |
@@ -136,6 +142,11 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
 - **Older versions:** on the [releases page](https://github.com/LinkSy-mg/linksy-releases/releases),
   as **Android** and **Linux** releases.
 
+> [!IMPORTANT]
+> Only download Linksy from here, [linksy.diary.mg](https://linksy.diary.mg) or the AUR. A copy from anywhere else could be modified.
+
+---
+
 ## What it does
 
 - **Files**: any size, both ways; drop them on the window. Resumed and checked byte for byte.
@@ -152,6 +163,8 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
   your devices last met.
 - **Wi-Fi or USB cable**: whichever is there.
 
+---
+
 ## Screenshots
 
 <p align="center">
@@ -167,6 +180,8 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
   <img src="screenshots/phone-watch-screen.png" width="300" alt="The computer's screen shown on the phone, full screen in landscape">
 </p>
 
+---
+
 ## Private by design
 
 - **Paired once**: devices compare a code, then only talk to each other.
@@ -175,11 +190,15 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
 - **The relay can't read**: away from home it only helps your devices find each other.
 - **Always asks**: screens, cameras, microphones and the terminal ask first and show while on.
 
+---
+
 ## Windows, macOS, iPhone?
 
 No plans. Linksy aims to be the best at Linux and Android: each other system would be a
 whole new app, its best features (webcam, second display) need paid, signed drivers, and an
 iPhone app can barely run in the background or read the clipboard.
+
+---
 
 ## Help
 
