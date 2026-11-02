@@ -43,6 +43,20 @@
 Always the newest version. Open the file on the phone, allow installing from your browser
 once, and install. To update, install a newer one the same way.
 
+> [!IMPORTANT]
+> **If Play Protect blocks the install.** Linksy can show your phone's notifications on your
+> computer, so Google Play Protect may stop it with "App blocked to protect your device". To
+> install it:
+> 1. Open the Play Store, tap your picture, then **Play Protect**, then the gear at the top right.
+> 2. Turn off **Scan apps with Play Protect**.
+> 3. Install Linksy, then turn scanning back on.
+>
+> Or install it from a computer with a cable: `adb install linksy.apk`.
+>
+> **To show notifications on your computer** (Android 13 and later): if Linksy's switch in
+> Notification access is greyed out, open **App info** for Linksy, tap **⋮** at the top right,
+> then **Allow restricted settings**, and turn Linksy on again. Linksy walks you through it.
+
 ### Linux
 
 <!-- linux:start -->
