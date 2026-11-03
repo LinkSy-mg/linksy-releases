@@ -1,4 +1,4 @@
-<img width="1800" height="900" alt="Download Linksy for Android and Linux. The Linux app showing a phone's page next to the Android app showing the computer." src="assets/banner.png" />
+<img width="1800" height="900" alt="Download Linksy for Android and Linux. The Linux app's Inbox, with the phone's page for the computer and the phone as a webcam." src="assets/banner.webp" />
 
 <div align="center">
 
