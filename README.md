@@ -163,7 +163,13 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
 
 ## What it does
 
+- **Messages**: the phone's chats, texts and mail in one Inbox on the computer, answered
+  from there where the app allows; codes copied for you.
+- **Photos**: the phone's photos and videos by album on the computer, saved in a click.
+- **Deck**: the phone as buttons for the computer (media, volume, Wi-Fi, Do Not Disturb,
+  restart, your own commands), laid out on the computer in five looks.
 - **Files**: any size, both ways; drop them on the window. Resumed and checked byte for byte.
+  The folder the phone shares opens on the computer as a file manager.
 - **Clipboard**: copy on one, paste on the other. Text, a screenshot or a small file.
 - **Open on PC**: share a link from any phone app, it opens on the computer.
 - **Webcam and microphone**: the phone's, in every app on the computer.
@@ -182,16 +188,31 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/phone-home-dark.png" width="150" alt="Your devices on the phone: a computer on the same Wi-Fi at 82%">
-  <img src="screenshots/phone-device-dark.png" width="150" alt="A computer's page on the phone: Send files, Clipboard, Ping, Remote, Find it, See its screen">
-  <img src="screenshots/phone-webcam.png" width="150" alt="The phone's camera live as the computer's webcam, with zoom, torch and light controls">
-  <img src="screenshots/phone-remote.png" width="150" alt="The phone as a touchpad, with left and right click and a keyboard">
-  <img src="screenshots/phone-terminal.png" width="150" alt="A shell on the computer from the phone, with Esc, Ctrl, Alt, Tab and arrows above the keyboard">
+  <img src="screenshots/phone-deck-landscape.webp" width="620" alt="The phone in landscape as a deck: music, clock, volume and buttons for the computer">
 </p>
 
 <p align="center">
-  <img src="screenshots/desktop-light.png" width="470" alt="Linksy on Linux, light style">
-  <img src="screenshots/phone-watch-screen.png" width="300" alt="The computer's screen shown on the phone, full screen in landscape">
+  <img src="screenshots/phone-home-dark.webp" width="150" alt="Your devices on the phone: a computer on the same Wi-Fi at 82%">
+  <img src="screenshots/phone-deck.webp" width="150" alt="The deck on the phone: music, clock, volume, Wi-Fi, Do Not Disturb and your own commands">
+  <img src="screenshots/phone-deck-pixel.webp" width="150" alt="The same deck in the Pixel look">
+  <img src="screenshots/phone-device-dark.webp" width="150" alt="A computer's page on the phone: Send files, Clipboard, Ping, Remote, Find it, See its screen">
+  <img src="screenshots/phone-webcam.webp" width="150" alt="The phone's camera live as the computer's webcam, with zoom, torch and light controls">
+  <img src="screenshots/phone-remote.webp" width="150" alt="The phone as a touchpad, with left and right click and a keyboard">
+  <img src="screenshots/phone-terminal.webp" width="150" alt="A shell on the computer from the phone, with Esc, Ctrl, Alt, Tab and arrows above the keyboard">
+</p>
+
+<p align="center">
+  <img src="screenshots/desktop-light.webp" width="470" alt="Linksy on Linux: a phone's page with what it can be used as">
+  <img src="screenshots/desktop-inbox.webp" width="470" alt="The Inbox on Linux: the phone's conversations, with one open">
+</p>
+
+<p align="center">
+  <img src="screenshots/desktop-deck-editor.webp" width="470" alt="The deck editor on Linux: the phone drawn true to size, with widgets to drag in">
+  <img src="screenshots/desktop-kde.webp" width="470" alt="The Qt app on KDE Plasma, in Breeze">
+</p>
+
+<p align="center">
+  <img src="screenshots/phone-watch-screen.webp" width="300" alt="The computer's screen shown on the phone, full screen in landscape">
 </p>
 
 ---
