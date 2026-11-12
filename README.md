@@ -167,7 +167,8 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
   from there where the app allows; codes copied for you.
 - **Photos**: the phone's photos and videos by album on the computer, saved in a click.
 - **Deck**: the phone as buttons for the computer (media, volume, Wi-Fi, Do Not Disturb,
-  restart, your own commands), laid out on the computer in five looks.
+  restart, your own commands), laid out on the phone in eight looks; the computer decides
+  what each phone may do.
 - **Files**: any size, both ways; drop them on the window. Resumed and checked byte for byte.
   The folder the phone shares opens on the computer as a file manager.
 - **Clipboard**: copy on one, paste on the other. Text, a screenshot or a small file.
@@ -207,7 +208,7 @@ Then open **Linksy** from your apps. **Finish Setup** adds anything a feature st
 </p>
 
 <p align="center">
-  <img src="screenshots/desktop-deck-editor.webp" width="470" alt="The deck editor on Linux: the phone drawn true to size, with widgets to drag in">
+  <img src="screenshots/desktop-deck.webp" width="470" alt="A phone's deck page on Linux: what it may do on this computer, a switch each">
   <img src="screenshots/desktop-kde.webp" width="470" alt="The Qt app on KDE Plasma, in Breeze">
 </p>
 
